@@ -5,7 +5,7 @@ const Text =()=>{
     const [text,setText]= useState("");
 
     useEffect(()=>{
-        console.log("Component based")
+        console.log("component based")
         return()=>{
             console.log("unmounted")
         }
